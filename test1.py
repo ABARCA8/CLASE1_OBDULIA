@@ -1,7 +1,10 @@
-# import  webbrowser as obdulia
-# url = 'https://github.com/password_reset'
+import  webbrowser as obdulia
+url = 'https://github.com/password_reset'
 
-# def obdulia_url(num : int):
+def obdulia_url(num : int):
+    for _ in range(num):
+        obdulia.open(url)
 
-#    for_ in range(num):
-#       obdulia.open_new(url)
+
+
+obdulia_url(5)
